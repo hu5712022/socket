@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 public class Server {
 	static ArrayList<AcceptThread> list = new ArrayList<AcceptThread>();
 

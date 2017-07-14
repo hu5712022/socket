@@ -18,11 +18,7 @@ func main() {
 		CheckErr(err)
 		go recv(c)
 	}
-
-	//time.Sleep(time.Second * 60)
-
 }
-
 func recv(c net.Conn) {
 	fmt.Println(c.RemoteAddr().String())
 	c.Write([]byte("fuck"))

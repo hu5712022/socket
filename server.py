@@ -9,7 +9,7 @@ server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host =socket.gethostname()
 print("hostname:",host)
 port = 22223
-
+ 
 server.bind(("127.0.0.1",port))
 
 server.listen(5)
